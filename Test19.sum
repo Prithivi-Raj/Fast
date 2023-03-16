@@ -1,7 +1,7 @@
 
 FAST Summary File
 
-Predictions were generated on 16-Mar-2023 at 12:02:26 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
+Predictions were generated on 16-Mar-2023 at 12:18:30 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
   compiled with
     NWTC Subroutine Library (v2.09.00, 23-Jul-2016)
     ElastoDyn (v1.04.00a-bjj, 26-Jul-2016)
@@ -86,10 +86,10 @@ Number of rows in Jacobian matrix used for coupling ElastoDyn, SubDyn, HydroDyn,
       37  YawBrTDyp   (m)         ElastoDyn
       38  YawBrTDzp   (m)         ElastoDyn
       39  PtfmHeave   (m)         ElastoDyn
-      40  RootFxb1    (kN)        ElastoDyn
-      41  RootFyb1    (kN)        ElastoDyn
-      42  TwrBsFxt    (kN)        ElastoDyn
-      43  TwrBsFyt    (kN)        ElastoDyn
+      40  RootMxb1    (kN·m)      ElastoDyn
+      41  RootMyb1    (kN·m)      ElastoDyn
+      42  TwrBsMxt    (kN·m)      ElastoDyn
+      43  TwrBsMyt    (kN·m)      ElastoDyn
       44  RtAeroFxh   (N)         AeroDyn
       45  RtAeroFyh   (N)         AeroDyn
       46  RtAeroFzh   (N)         AeroDyn
