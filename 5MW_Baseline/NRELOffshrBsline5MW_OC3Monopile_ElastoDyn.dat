@@ -134,7 +134,7 @@ True          TabDelim    - Use tab delimiters in text tabular output file? (fla
 "YawBrFxp, YawBrFyp, YawBrFzp"    - Fore-aft shear, side-to-side shear, and vertical forces at the top of the tower (not rotating with nacelle yaw)
 "YawBrMxp, YawBrMyp, YawBrMzp"    - Side-to-side bending, fore-aft bending, and yaw moments at the top of the tower (not rotating with nacelle yaw)
 "YawBrTDxp,YawBrTDyp,YawBrTDzp"
-"PtfmHeave,RootFxb1,RootFyb1"
-"TwrBsFxt,TwrBsFyt"
+"PtfmHeave,RootMxb1,RootMyb1"
+"TwrBsMxt,TwrBsMyt"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
 ---------------------------------------------------------------------------------------
