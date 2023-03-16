@@ -1,7 +1,7 @@
 
 FAST Summary File
 
-Predictions were generated on 07-Mar-2023 at 16:58:20 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
+Predictions were generated on 16-Mar-2023 at 11:28:56 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
   compiled with
     NWTC Subroutine Library (v2.09.00, 23-Jul-2016)
     ElastoDyn (v1.04.00a-bjj, 26-Jul-2016)
@@ -82,22 +82,31 @@ Number of rows in Jacobian matrix used for coupling ElastoDyn, SubDyn, HydroDyn,
       33  YawBrMxp    (kN·m)      ElastoDyn
       34  YawBrMyp    (kN·m)      ElastoDyn
       35  YawBrMzp    (kN·m)      ElastoDyn
-      36  RtAeroFxh   (N)         AeroDyn
-      37  RtAeroFyh   (N)         AeroDyn
-      38  RtAeroFzh   (N)         AeroDyn
-      39  RtAeroMxh   (N·m)       AeroDyn
-      40  RtAeroMyh   (N·m)       AeroDyn
-      41  RtAeroMzh   (N·m)       AeroDyn
-      42  GenPwr      (kW)        ServoDyn
-      43  GenTq       (kN·m)      ServoDyn
-      44  Wave1Elev   (m)         HydroDyn
-      45  M2N1MKxe    (N*m)       SubDyn
-      46  M2N1MKye    (N*m)       SubDyn
-      47  M1N1MKxe    (N*m)       SubDyn
-      48  M1N1MKye    (N*m)       SubDyn
-      49  -ReactFXss  (N)         SubDyn
-      50  -ReactFYss  (N)         SubDyn
-      51  -ReactFZss  (N)         SubDyn
-      52  -ReactMXss  (Nm)        SubDyn
-      53  -ReactMYss  (Nm)        SubDyn
-      54  -ReactMZss  (Nm)        SubDyn
+      36  YawBrTDxp   (m)         ElastoDyn
+      37  YawBrTDyp   (m)         ElastoDyn
+      38  YawBrTDzp   (m)         ElastoDyn
+      39  PtfmHeave   (m)         ElastoDyn
+      40  RootFxb1    (kN)        ElastoDyn
+      41  RootFyb1    (kN)        ElastoDyn
+      42  TwrBsFxt    (kN)        ElastoDyn
+      43  TwrBsFyt    (kN)        ElastoDyn
+      44  RtAeroFxh   (N)         AeroDyn
+      45  RtAeroFyh   (N)         AeroDyn
+      46  RtAeroFzh   (N)         AeroDyn
+      47  RtAeroMxh   (N·m)       AeroDyn
+      48  RtAeroMyh   (N·m)       AeroDyn
+      49  RtAeroMzh   (N·m)       AeroDyn
+      50  GenPwr      (kW)        ServoDyn
+      51  GenTq       (kN·m)      ServoDyn
+      52  BlPitchC1   (deg)       ServoDyn
+      53  Wave1Elev   (m)         HydroDyn
+      54  M2N1MKxe    (N*m)       SubDyn
+      55  M2N1MKye    (N*m)       SubDyn
+      56  M1N1MKxe    (N*m)       SubDyn
+      57  M1N1MKye    (N*m)       SubDyn
+      58  -ReactFXss  (N)         SubDyn
+      59  -ReactFYss  (N)         SubDyn
+      60  -ReactFZss  (N)         SubDyn
+      61  -ReactMXss  (Nm)        SubDyn
+      62  -ReactMYss  (Nm)        SubDyn
+      63  -ReactMZss  (Nm)        SubDyn
