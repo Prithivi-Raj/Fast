@@ -1,7 +1,7 @@
 
 FAST Summary File
 
-Predictions were generated on 01-Mar-2023 at 16:08:12 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
+Predictions were generated on 17-Mar-2023 at 13:17:47 using FAST (v8.16.00a-bjj, 27-Jul-2016), compiled as a 32-bit application using single precision
   compiled with
     NWTC Subroutine Library (v2.09.00, 23-Jul-2016)
     ElastoDyn (v1.04.00a-bjj, 26-Jul-2016)
@@ -87,34 +87,36 @@ Number of rows in Jacobian matrix used for coupling ElastoDyn, SubDyn, HydroDyn,
       38  PtfmRoll    (deg)       ElastoDyn
       39  PtfmPitch   (deg)       ElastoDyn
       40  PtfmYaw     (deg)       ElastoDyn
-      41  GenPwr      (kW)        ServoDyn
-      42  GenTq       (kN·m)      ServoDyn
-      43  Wave1Elev   (m)         HydroDyn
-      44  M1N1FKZe    (N)         SubDyn
-      45  M2N1FKZe    (N)         SubDyn
-      46  M3N1TDXss   (m)         SubDyn
-      47  M3N1TDYss   (m)         SubDyn
-      48  M3N1TDZss   (m)         SubDyn
-      49  M4N1TDXss   (m)         SubDyn
-      50  M4N1TDYss   (m)         SubDyn
-      51  M4N1TDZss   (m)         SubDyn
-      52  M5N2TDXss   (m)         SubDyn
-      53  M5N2TDYss   (m)         SubDyn
-      54  M5N2TDZss   (m)         SubDyn
-      55  M6N2TDXss   (m)         SubDyn
-      56  M6N2TDYss   (m)         SubDyn
-      57  M6N2TDZss   (m)         SubDyn
-      58  M5N1FKXe    (N)         SubDyn
-      59  M5N1FKYe    (N)         SubDyn
-      60  M5N1FKZe    (N)         SubDyn
-      61  M6N1FKXe    (N)         SubDyn
-      62  M6N1FKYe    (N)         SubDyn
-      63  M6N1FKZe    (N)         SubDyn
-      64  M7N1FKZe    (N)         SubDyn
-      65  M8N1FKZe    (N)         SubDyn
-      66  -ReactFXss  (N)         SubDyn
-      67  -ReactFYss  (N)         SubDyn
-      68  -ReactMXss  (Nm)        SubDyn
-      69  -ReactMYss  (Nm)        SubDyn
-      70  -ReactMZss  (Nm)        SubDyn
-      71  -ReactFZss  (N)         SubDyn
+      41  RootMxb1    (kN·m)      ElastoDyn
+      42  RootMyb1    (kN·m)      ElastoDyn
+      43  GenPwr      (kW)        ServoDyn
+      44  GenTq       (kN·m)      ServoDyn
+      45  Wave1Elev   (m)         HydroDyn
+      46  M1N1FKZe    (N)         SubDyn
+      47  M2N1FKZe    (N)         SubDyn
+      48  M3N1TDXss   (m)         SubDyn
+      49  M3N1TDYss   (m)         SubDyn
+      50  M3N1TDZss   (m)         SubDyn
+      51  M4N1TDXss   (m)         SubDyn
+      52  M4N1TDYss   (m)         SubDyn
+      53  M4N1TDZss   (m)         SubDyn
+      54  M5N2TDXss   (m)         SubDyn
+      55  M5N2TDYss   (m)         SubDyn
+      56  M5N2TDZss   (m)         SubDyn
+      57  M6N2TDXss   (m)         SubDyn
+      58  M6N2TDYss   (m)         SubDyn
+      59  M6N2TDZss   (m)         SubDyn
+      60  M5N1FKXe    (N)         SubDyn
+      61  M5N1FKYe    (N)         SubDyn
+      62  M5N1FKZe    (N)         SubDyn
+      63  M6N1FKXe    (N)         SubDyn
+      64  M6N1FKYe    (N)         SubDyn
+      65  M6N1FKZe    (N)         SubDyn
+      66  M7N1FKZe    (N)         SubDyn
+      67  M8N1FKZe    (N)         SubDyn
+      68  -ReactFXss  (N)         SubDyn
+      69  -ReactFYss  (N)         SubDyn
+      70  -ReactMXss  (Nm)        SubDyn
+      71  -ReactMYss  (Nm)        SubDyn
+      72  -ReactMZss  (Nm)        SubDyn
+      73  -ReactFZss  (N)         SubDyn

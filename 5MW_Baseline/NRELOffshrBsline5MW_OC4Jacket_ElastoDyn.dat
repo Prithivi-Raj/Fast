@@ -134,5 +134,6 @@ True          TabDelim    - Use tab delimiters in text tabular output file? (fla
 "TwrBsMxt , TwrBsMyt , TwrBsMzt"  - Side-to-side bending, fore-aft bending, and yaw moments at the mudline
 "PtfmSurge, PtfmSway , PtfmHeave" - TP translational displacements
 "PtfmRoll , PtfmPitch, PtfmYaw"   - TP rotational displacements
+"RootMxb1, RootMyb1"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
 ---------------------------------------------------------------------------------------
